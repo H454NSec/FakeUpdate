@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HasanSec</title>
+</head>
+<body>
+	<script>
+		if (navigator.userAgent.indexOf("Win") != -1){
+			location.replace("./windows10/index.html");
+		}else if (navigator.userAgent.indexOf("Mac") != -1) {
+			location.replace("./macOS/index.html");
+		}else{
+			location.replace("./other/index.html");
+		}
+	</script>
+</body>
+</html>
+
+
